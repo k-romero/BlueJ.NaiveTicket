@@ -143,4 +143,12 @@ double field = Price of the book
 maybe multiple int fields = Date Published | Volume
 possible boolean type = NY Times Best Sellers
 
+#Exercise 2.19
+name = petsName
+#Exercise 2.20
+wouldn't need to write `int` before price b/c it would have already been declared in the field. When creating the object in TicketMachine with a price set to 500, upon using getPrice() I'm thrown a `null`. I think the reason this happens is because we are overriding the the first field we declared?
+
+
+
+
 READ up-to and INCLUDING section 2.15 of this chapter.
